@@ -54,6 +54,12 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="test.xaml.cs">
+      <DependentUpon>test.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="View\Index_Notification.xaml.cs">
+      <DependentUpon>Index_Notification.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
     </Compile>
@@ -69,6 +75,14 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="test.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\Index_Notification.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="View\Login.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -103,6 +117,21 @@
   <ItemGroup>
     <Folder Include="ModelView\" />
     <Folder Include="Model\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\ui\add.png" />
+    <Resource Include="View\ui\background.jpg" />
+    <Resource Include="View\ui\huisman logo.png" />
+    <Resource Include="View\ui\more.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\ui\sdbackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\ui\backward.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="View\ui\forward.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

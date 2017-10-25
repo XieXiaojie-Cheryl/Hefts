@@ -12,21 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace Hefts.View
+namespace Hefts
 {
     /// <summary>
-    /// Interaction logic for Login.xaml
+    /// Interaction logic for test.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class test : Window
     {
-        public Login()
+        public test()
         {
             InitializeComponent();
-        }
-
-        private void Tb_Username_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }

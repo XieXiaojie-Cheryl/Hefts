@@ -15,16 +15,16 @@ using System.Windows.Shapes;
 namespace Hefts.View
 {
     /// <summary>
-    /// Interaction logic for Login.xaml
+    /// Interaction logic for Index_Notification.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class Index_Notification : Window
     {
-        public Login()
+        public Index_Notification()
         {
             InitializeComponent();
         }
 
-        private void Tb_Username_TextChanged(object sender, TextChangedEventArgs e)
+        private void Btn_Offline_Click(object sender, RoutedEventArgs e)
         {
 
         }
