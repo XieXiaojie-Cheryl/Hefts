@@ -15,15 +15,13 @@ using System.Windows.Shapes;
 namespace Hefts.View
 {
     /// <summary>
-    /// Interaction logic for Login.xaml
+    /// Interaction logic for Usercenter.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class Usercenter : Window
     {
-        public Login()
+        public Usercenter()
         {
             InitializeComponent();
-
-
         }
     }
 }
