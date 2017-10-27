@@ -57,6 +57,9 @@
     <Compile Include="test.xaml.cs">
       <DependentUpon>test.xaml</DependentUpon>
     </Compile>
+    <Compile Include="View\folderlist.xaml.cs">
+      <DependentUpon>folderlist.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\Index_Notification.xaml.cs">
       <DependentUpon>Index_Notification.xaml</DependentUpon>
     </Compile>
@@ -79,6 +82,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="test.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\folderlist.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
